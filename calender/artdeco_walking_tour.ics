@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20241013T042752Z
+UID:1728793411670-31031@ical.marudot.com
+DTSTART;TZID=America/New_York:20241015T100000
+DTEND;TZID=America/New_York:20241015T130000
+SUMMARY:Art Deco Architecture Walking Tour
+DESCRIPTION:Explore the iconic Art Deco district of Miami Beach with a guided walking tour. Discover the history behind the city's stunning collection of 1920s and 1930s architecture\, characterized by geometric shapes\, pastel colors\, and neon lighting. Learn about the origins of the style and its cultural significance in shaping Miami's visual identity.
+LOCATION:Miami Beach\, FL
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Deco Architecture Walking Tour
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

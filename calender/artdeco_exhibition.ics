@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20241013T043905Z
+UID:1728794226647-27866@ical.marudot.com
+DTSTART;TZID=America/New_York:20241105T090000
+DTEND;TZID=America/New_York:20241105T180000
+SUMMARY:Art Deco Exhibition: Glamour & Modernity
+DESCRIPTION:This special exhibition celebrates the grandeur and sophistication of the Art Deco era. Showcasing furniture\, jewelry\, fashion\, and artwork from the 1920s and 1930s\, the collection highlights the luxurious materials and elegant design principles that defined this global movement. Visitors will gain insight into how Art Deco influenced design across the world.
+LOCATION:The Metropolitan Museum of Art\, New York\, NY
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Deco Exhibition: Glamour & Modernity
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
