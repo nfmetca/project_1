@@ -1,0 +1,630 @@
+.lexend-exa {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.fascinate-inline-regular {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(7, 100px);
+    gap: 10px;
+    width: 100%;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(7, 100px);
+    gap: 10px;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(7, 100px);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(5, 100px);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(8, 100px);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.container6 {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(10, 100px);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.container7 {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.shape-container {
+    position: absolute; 
+    top: 0;
+    left: 170px;
+    width: 210px; 
+    height: 4400px; 
+    z-index: -1;
+    background-color:#F4C456
+}
+
+html {
+    background-color: #F3EBC4;
+   margin: 50px;
+   width: 100%;
+}
+
+  h1 {
+    color: #2D2D2F;
+    font-family: 'fascinate inline';
+    font-size: 100px;
+    grid-column: 1 / 10;
+    grid-row: 2;
+    align-self: center;
+}
+
+h2 {
+    font-family: 'fascinate inline';
+    font-size: 28px;
+}
+
+h3 {
+    color: #2D2D2F;
+    font-family: 'fascinate inline';
+    font-size: 16px;
+}
+
+h4 {
+    color: #2D2D2F;
+    font-family: 'Lexend Exa';
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.horizontal {
+    color: #F3EBC4;
+    background-color: #486B71;
+    grid-column: 1 / 8;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 60%;
+    line-height: 75%;
+    text-align: center;
+    align-self: end;
+}
+
+.horizontal2 {
+    color: #F3EBC4;
+    background-color: #92B3A2;
+    grid-column: 6 / 13;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 60%;
+    line-height: 75%;
+    text-align: center;
+    align-self: end;
+}
+
+.vertical {
+    color: #F3EBC4;
+    background-color: #F4C456;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    grid-column: 3;
+    grid-row: 4 / 7;
+    text-align: center;
+    rotate: 180deg;
+  justify-self: center;
+}
+
+.vertical2 {
+    color: #F3EBC4;
+    background-color: #F4C456;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    grid-column: 3;
+    grid-row: 2 / 4;
+    text-align: center;
+    rotate: 180deg;
+    justify-self: center;
+}
+
+.vertical3 {
+    color: #F3EBC4;
+    background-color: #F4C456;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    grid-column: 3;
+    grid-row: 2 / 6;
+    text-align: center;
+    rotate: 180deg;
+    justify-self: center;
+}
+
+.nav {
+    grid-column: 6 / 13;
+    grid-row: 3;
+    align-self: start;
+    font-family: 'Lexend Exa';
+    font-size: 10px;
+    height: 50%;
+    position: relative;
+    background-color: #92B3A2;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: ;
+    padding-top: 4px;
+    padding-left: 90px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    color: ;
+}
+
+li a {
+display: block;
+color: #F3EBC4;
+padding: 5px 20px;
+text-decoration: none;
+}
+
+li a:hover{
+    color: #486B71;
+}
+
+.diamond {
+    float: left;
+    color: #486B71;
+    position: relative;
+    top: 3px;
+}
+
+.intro-paragraph {
+    color: #2D2D2F;
+    font-family: 'Lexend Exa';
+    font-size: 16px;
+    text-align: center;
+    grid-column: 5 / 12;
+    grid-row:  4 / 7;
+    align-self: center;
+}
+
+.box {
+    background-color: #92B3A2;
+    grid-column: 1 / 13;
+    grid-row: 2 / 8;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(6, 100px);
+    gap: 10px;
+}
+
+.alphabet {
+    font-family: 'fascinate inline';
+    color: #2D2D2F;
+    font-size: 58px;
+    text-align: center;
+    grid-column: 2 / 8;
+    grid-row: 2 / 6;
+    align-self: center;
+}
+
+.alphabet:hover ~ .numbers {
+    grid-column: 10 / 12;
+    transition-duration: 1s;
+}
+
+.alphabet:hover {
+    grid-column: 2 / 10;
+    font-size: 78px;
+    transition-duration: 1s;
+}
+
+.a{
+    display: inline;
+    position:relative;
+}
+.a:hover{
+    bottom: 10px;
+    color:#F3EBC4;
+}
+
+.numbers {
+    font-family: 'fascinate inline';
+    color: #2D2D2F;
+    font-size: 46px;
+    text-align: center;
+    float: right;
+    grid-column: 8 / 12;
+    grid-row: 3 / 5;
+    align-self: center;
+}
+
+.numbers:hover ~ .alphabet {
+    grid-column: 2 / 6;
+}
+
+.n {
+    display: inline;
+    position: relative;
+}
+
+.n:hover {
+    bottom: 10px;
+    color: #F3EBC4;
+}
+
+.retro {
+    color: #2D2D2F;
+    font-family: 'fascinate inline';
+    font-size: 100px;
+    grid-column: 8 / 11;
+    grid-row: 3 / 4;
+    align-self: center;
+}
+
+.retro:hover {
+    color: #F4C456;
+}
+
+.kitsch {
+    color: #486B71;
+    font-family: 'fascinate inline';
+    font-size: 58px;
+    grid-column: 5 / 8;
+    grid-row: 2;
+align-self: start;
+justify-self: start;
+}
+
+.kitsch:hover {
+    color: #92B3A2;
+}
+
+.geo {
+    color: #92B3A2;
+    font-family: 'fascinate inline';
+    font-size: 46px;
+    grid-column: 9 / 11;
+    grid-row: 2;
+    align-self: center;
+    justify-self: start;
+}
+
+.geo:hover {
+    color: #486B71;
+}
+
+.craft {
+    color: #92B3A2;
+    font-family: 'fascinate inline';
+    font-size: 46px;
+    grid-column: 6 / 8;
+    grid-row: 4;
+    align-self: start;
+    justify-self: end;  
+}
+
+.craft:hover {
+    color: #486B71;
+}
+
+.luxury {
+    color: #486B71;
+    font-family: 'fascinate inline';
+    font-size: 58px;
+    grid-column: 10 / 13;
+    grid-row: 4;
+align-self: center;
+justify-self: start;
+}
+
+.luxury:hover {
+    color: #92B3A2;
+}
+
+.box2 {
+    background-color: #486B71;
+    grid-column: 1 / 13;
+    grid-row: 2 / 9;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(7, 100px);
+    gap: 10px;
+}
+
+.p1 {
+    color: #F3EBC4;
+    font-family: 'Lexend Exa';
+    font-size: 16px;
+    text-align: left;
+    grid-column: 2 / 11;
+    grid-row:  2 / 4;
+    align-self: start;
+}
+
+.p1:hover {
+    line-height: 2;
+    grid-row: 1 / 4;
+    align-self: center;
+    transition-duration: 1s;
+}
+
+.p2 {
+color: #F3EBC4;
+font-family: 'Lexend Exa';
+font-size: 10px;
+text-align: right;
+grid-column: 3 / 5;
+grid-row:  3 / 6;
+align-self: end;
+}
+
+.p2:hover {
+    letter-spacing: 2px;
+    grid-column: 2 / 5;
+    transition-duration: 1s;
+}
+
+.p3 {
+    color: #F3EBC4;
+    font-family: 'Lexend Exa';
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    grid-column: 5 / 12;
+    grid-row:  3 / 6;
+    align-self: center;
+}
+
+.p3:hover {
+    font-weight: 900;
+    transition-duration: 1s;
+}
+
+.p4 {
+    color: #F3EBC4;
+    font-family: 'Lexend Exa';
+    font-size: 16px;
+    font-weight: 900;
+    text-align: right;
+    grid-column: 3 / 12;
+    grid-row:  6 / 8;
+    align-self: start;
+}
+
+.p4:hover {
+    font-weight: 100;
+    transition-duration: 1s;
+}
+
+.event1 {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(3, 26.667px);
+    gap: 10px;
+}
+
+.e1 {
+    color: #2D2D2F;
+    grid-column: 5 / 12;
+    grid-row: 1 / 2;
+    text-align: center;
+    align-self: start;
+}
+
+.d1 {
+    color: #2D2D2F;
+    grid-column: 6 / 11;
+    grid-row: 2 / 3;
+    text-align: center;
+    justify-self: center;
+}
+
+.place {
+    color: #2D2D2F;
+    grid-column: 6 / 11;
+    grid-row: 3 / 4;
+    text-align: center;
+    justify-self: center;
+}
+
+.des {
+    font-family: 'Lexend Exa';
+    font-size: 10px;
+    color:#2D2D2F;
+    text-align: center;
+    grid-column: 6 / 11;
+    grid-row: 3 / 4;
+}
+
+.des:hover {
+    font-size: 16px;
+    grid-column: 5 / 12;
+    transition-duration: .5s;
+}
+
+.dia {
+    color: #486B71;
+    font-family: 'Lexend Exa';
+    font-size: 24px;
+    grid-column: 8 / 9;
+    grid-row: 4 / 5;
+    justify-self: center;
+    align-self: center;
+}
+
+.event2 {
+    grid-row: 5;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(3, 26.667px);
+    gap: 10px;
+}
+
+.e2 {
+    color: #2D2D2F;
+    grid-column: 5 / 12;
+    grid-row: 1 / 2;
+    text-align: center;
+    align-self: start;
+}
+
+.d2 {
+    color: #2D2D2F;
+    grid-column: 6 / 11;
+    grid-row: 2 / 3;
+    text-align: center;
+    justify-self: center;
+}
+
+.place2 {
+    color: #2D2D2F;
+    grid-column: 6 / 11;
+    grid-row: 3/ 4;
+    text-align: center;
+    justify-self: center;
+}
+
+.des2 {
+    font-family: 'Lexend Exa';
+    font-size: 10px;
+    color:#2D2D2F;
+    text-align: center;
+    grid-column: 6 / 11;
+    grid-row: 6 / 7;
+}
+
+.des2:hover {
+    font-size: 16px;
+    grid-column: 5 / 12;
+    transition-duration: .5s;
+}
+
+.dia2 {
+    color: #486B71;
+    font-family: 'Lexend Exa';
+    font-size: 24px;
+    grid-column: 8 / 9;
+    grid-row: 7 / 8;
+    justify-self: center;
+    align-self: center;
+}
+
+.event3 {
+    grid-row: 8;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(3, 26.667px);
+    gap: 10px;
+}
+
+.e3 {
+    color: #2D2D2F;
+    grid-column: 5 / 12;
+    grid-row: 1 / 2;
+    text-align: center;
+    align-self: start;
+}
+
+.d3 {
+    color: #2D2D2F;
+    grid-column: 6 / 11;
+    grid-row: 2 / 3;
+    text-align: center;
+    justify-self: center;
+}
+
+.place3 {
+    color: #2D2D2F;
+    grid-column: 6 / 11;
+    grid-row: 3 / 4;
+    text-align: center;
+    justify-self: center;
+}
+
+.des3 {
+    font-family: 'Lexend Exa';
+    font-size: 10px;
+    color:#2D2D2F;
+    text-align: center;
+    grid-column: 6 / 11;
+    grid-row: 9 / 10;
+}
+
+.des3:hover {
+    font-size: 16px;
+    grid-column: 5 / 12;
+    transition-duration: .5s;
+}
+
+h4 a {
+    display: block;
+    color: #2D2D2F;
+    text-decoration: none;
+}
+
+h4 :hover {
+    color: #486B71;
+}
+
+.box3 {
+    background-color: #92B3A2;
+    grid-column: 1 / 13;
+    grid-row: 2 / 4;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+}
+
+.foot {
+color: #F3EBC4;
+grid-column:  5 / 9;
+grid-row: 1 / 3;
+text-align: center;
+align-self: center;
+}
+
+h2 a {
+    display: block;
+color: #F3EBC4;
+text-decoration: none;
+}
+
+h2 a:hover {
+    color: #92B3A2;
+}
